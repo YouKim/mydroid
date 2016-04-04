@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="sun/security/provider/certpath/ldap/" kind="src" path="libcore/ojluni/src/main/java"/>
+	<classpathentry kind="src" path="libcore/ojluni/src/lambda/java"/>
+	<classpathentry kind="src" path="libcore/libart/src/main/java"/>
+	<classpathentry kind="src" path="libcore/luni/src/main/java"/>
+	<classpathentry kind="src" path="external/icu/android_icu4j/src/main/java"/>
+	<classpathentry kind="src" path="libcore/dalvik/src/main/java"/>
+	<classpathentry kind="src" path="libcore/dex/src/main/java"/>
+	<classpathentry kind="src" path="libcore/xml/src/main/java"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
