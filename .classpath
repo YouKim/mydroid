@@ -68,21 +68,15 @@
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/src/src/java"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/src/src/java"/>
 	<classpathentry kind="src" path="out/target/common/R"/>
+	<classpathentry kind="src" path="frameworks/support/annotations/src"/>
 	<classpathentry kind="src" path="frameworks/support/v4/donut"/>
-	<classpathentry kind="src" path="frameworks/support/v7/palette/src/main/java"/>
-	<classpathentry kind="src" path="frameworks/support/v7/cardview/src"/>
-	<classpathentry kind="src" path="frameworks/support/v7/recyclerview/src"/>
 	<classpathentry kind="src" path="frameworks/support/v4/honeycomb"/>
 	<classpathentry kind="src" path="frameworks/support/v4/kitkat"/>
-	<classpathentry kind="src" path="frameworks/support/v4/api21"/>
 	<classpathentry kind="src" path="frameworks/support/v4/api22"/>
 	<classpathentry kind="src" path="frameworks/support/v4/api23"/>
 	<classpathentry kind="src" path="frameworks/support/v4/jellybean-mr2"/>
 	<classpathentry kind="src" path="frameworks/support/v4/jellybean-mr1"/>
 	<classpathentry kind="src" path="frameworks/support/v4/jellybean"/>
-	<classpathentry kind="src" path="frameworks/support/v7/cardview/api21"/>
-	<classpathentry kind="src" path="frameworks/support/v7/cardview/eclair-mr1"/>
-	<classpathentry kind="src" path="frameworks/support/v7/cardview/jellybean-mr1"/>
 	<classpathentry kind="src" path="frameworks/support/v4/api20"/>
 	<classpathentry kind="src" path="frameworks/support/v4/eclair"/>
 	<classpathentry kind="src" path="frameworks/support/v4/eclair-mr1"/>
@@ -92,41 +86,47 @@
 	<classpathentry kind="src" path="frameworks/support/v4/honeycomb_mr2"/>
 	<classpathentry kind="src" path="frameworks/support/v4/ics"/>
 	<classpathentry kind="src" path="frameworks/support/v4/ics-mr1"/>
+	<classpathentry kind="src" path="frameworks/support/v4/java"/>
+	<classpathentry excluding="android/service/media/|android/content/pm/" kind="src" path="frameworks/support/v4/api21"/>
+	<classpathentry kind="src" path="frameworks/support/v7/appcompat/src"/>
+	<classpathentry kind="src" path="frameworks/support/v7/preference/src"/>
+	<classpathentry kind="src" path="frameworks/support/v7/palette/src/main/java"/>
+	<classpathentry kind="src" path="frameworks/support/v7/cardview/src"/>
+	<classpathentry kind="src" path="frameworks/support/v7/recyclerview/src"/>
+	<classpathentry kind="src" path="frameworks/support/v7/cardview/api21"/>
+	<classpathentry kind="src" path="frameworks/support/v7/cardview/eclair-mr1"/>
+	<classpathentry kind="src" path="frameworks/support/v7/cardview/jellybean-mr1"/>
+	<classpathentry kind="src" path="frameworks/support/v7/cardview/base"/>
 	<classpathentry kind="src" path="frameworks/support/v13/api23"/>
 	<classpathentry kind="src" path="frameworks/support/v13/ics"/>
 	<classpathentry kind="src" path="frameworks/support/v13/ics-mr1"/>
-	<classpathentry kind="src" path="frameworks/support/v17/leanback/api21"/>
-	<classpathentry kind="src" path="frameworks/support/v17/leanback/api23"/>
-	<classpathentry kind="src" path="frameworks/support/v17/leanback/common"/>
-	<classpathentry kind="src" path="frameworks/support/v7/cardview/base"/>
-	<classpathentry kind="src" path="frameworks/support/v14/preference/src"/>
 	<classpathentry kind="src" path="frameworks/support/v13/java"/>
-	<classpathentry kind="src" path="frameworks/support/v17/leanback/src"/>
-	<classpathentry kind="src" path="frameworks/support/v7/preference/src"/>
-	<classpathentry kind="src" path="frameworks/support/v4/java"/>
-	<classpathentry kind="src" path="frameworks/support/annotations/src"/>
-	<classpathentry kind="src" path="frameworks/support/v7/appcompat/src"/>
+	<classpathentry kind="src" path="frameworks/support/v14/preference/src"/>
+	<classpathentry kind="src" path="frameworks/support/v17/leanback/api21"/>
 	<classpathentry kind="src" path="frameworks/support/v17/leanback/jbmr2"/>
 	<classpathentry kind="src" path="frameworks/support/v17/leanback/kitkat"/>
+	<classpathentry kind="src" path="frameworks/support/v17/leanback/api23"/>
+	<classpathentry kind="src" path="frameworks/support/v17/leanback/common"/>
+	<classpathentry kind="src" path="frameworks/support/v17/leanback/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/src/java"/>
-	<classpathentry kind="src" path="packages/services/Telephony/common/src"/>
 	<classpathentry kind="src" path="packages/services/Mms/src"/>
 	<classpathentry kind="src" path="packages/services/Telecomm/src"/>
+	<classpathentry kind="src" path="packages/services/Telephony/common/src"/>
 	<classpathentry kind="src" path="packages/services/Telephony/src"/>
 	<classpathentry kind="src" path="packages/services/Telephony/sip/src"/>
+	<classpathentry kind="src" path="packages/providers/CallLogProvider/src"/>
 	<classpathentry kind="src" path="packages/providers/ContactsProvider/src"/>
 	<classpathentry kind="src" path="packages/providers/MediaProvider/src"/>
 	<classpathentry kind="src" path="packages/providers/TelephonyProvider/src"/>
-	<classpathentry kind="src" path="packages/providers/CallLogProvider/src"/>
 	<classpathentry kind="src" path="packages/apps/Contacts/src"/>
+	<classpathentry kind="src" path="packages/apps/ContactsCommon/src"/>
 	<classpathentry kind="src" path="packages/apps/Dialer/src"/>
 	<classpathentry kind="src" path="packages/apps/InCallUI/src"/>
 	<classpathentry kind="src" path="packages/apps/PackageInstaller/src"/>
 	<classpathentry kind="src" path="packages/apps/PhoneCommon/src"/>
-	<classpathentry kind="src" path="packages/apps/ContactsCommon/src"/>
 	<classpathentry kind="src" path="packages/apps/Settings/src"/>
-	<classpathentry kind="src" path="out/target/common/obj/APPS/MediaProvider_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/ContactsProvider_intermediates/src/src"/>
+	<classpathentry kind="src" path="out/target/common/obj/APPS/MediaProvider_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/PackageInstaller_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/TeleService_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/Settings_intermediates/src/src"/>
