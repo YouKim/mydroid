@@ -48,10 +48,12 @@
 	<classpathentry kind="src" path="frameworks/base/telecomm/java"/>
 	<classpathentry kind="src" path="frameworks/base/telephony/java"/>
 	<classpathentry kind="src" path="frameworks/base/wifi/java"/>
+	<classpathentry kind="src" path="frameworks/base/packages/SettingsLib/src"/>
 	<classpathentry kind="src" path="frameworks/opt/telephony/src/java"/>
 	<classpathentry kind="src" path="frameworks/opt/net/voip/src/java"/>
 	<classpathentry kind="src" path="frameworks/opt/net/ims/src/java"/>
 	<classpathentry kind="src" path="frameworks/opt/vcard/java"/>
+	<classpathentry kind="src" path="frameworks/opt/setupwizard/library/main/src"/>
 	<classpathentry kind="src" path="frameworks/ex/common/java"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/core/java"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/keystore/java"/>
@@ -108,6 +110,10 @@
 	<classpathentry kind="src" path="frameworks/support/v17/leanback/kitkat"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/src/java"/>
 	<classpathentry kind="src" path="packages/services/Telephony/common/src"/>
+	<classpathentry kind="src" path="packages/services/Mms/src"/>
+	<classpathentry kind="src" path="packages/services/Telecomm/src"/>
+	<classpathentry kind="src" path="packages/services/Telephony/src"/>
+	<classpathentry kind="src" path="packages/services/Telephony/sip/src"/>
 	<classpathentry kind="src" path="packages/providers/ContactsProvider/src"/>
 	<classpathentry kind="src" path="packages/providers/MediaProvider/src"/>
 	<classpathentry kind="src" path="packages/providers/TelephonyProvider/src"/>
@@ -118,9 +124,12 @@
 	<classpathentry kind="src" path="packages/apps/PackageInstaller/src"/>
 	<classpathentry kind="src" path="packages/apps/PhoneCommon/src"/>
 	<classpathentry kind="src" path="packages/apps/ContactsCommon/src"/>
+	<classpathentry kind="src" path="packages/apps/Settings/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/MediaProvider_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/ContactsProvider_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/PackageInstaller_intermediates/src/src"/>
+	<classpathentry kind="src" path="out/target/common/obj/APPS/TeleService_intermediates/src/src"/>
+	<classpathentry kind="src" path="out/target/common/obj/APPS/Settings_intermediates/src/src"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/conscrypt_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes-jarjar.jar"/>
