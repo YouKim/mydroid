@@ -131,6 +131,7 @@
 	<classpathentry kind="src" path="out/target/common/obj/APPS/TeleService_intermediates/src/src"/>
 	<classpathentry excluding="src/" kind="src" path="out/target/common/obj/APPS/TeleService_intermediates/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/Settings_intermediates/src/src"/>
+	<classpathentry kind="src" path="packages/apps/ManagedProvisioning/src"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/conscrypt_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes-jarjar.jar"/>
