@@ -67,7 +67,7 @@
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/services.core_intermediates/src/java"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/src/src/java"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/src/src/java"/>
-	<classpathentry kind="src" path="out/target/common/R"/>
+	<classpathentry excluding="com/android/phone/|com/android/phone/common/|com/android/services/telephony/sip/" kind="src" path="out/target/common/R"/>
 	<classpathentry kind="src" path="frameworks/support/annotations/src"/>
 	<classpathentry kind="src" path="frameworks/support/v4/donut"/>
 	<classpathentry kind="src" path="frameworks/support/v4/honeycomb"/>
@@ -129,6 +129,7 @@
 	<classpathentry kind="src" path="out/target/common/obj/APPS/MediaProvider_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/PackageInstaller_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/TeleService_intermediates/src/src"/>
+	<classpathentry excluding="src/" kind="src" path="out/target/common/obj/APPS/TeleService_intermediates/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/Settings_intermediates/src/src"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/conscrypt_intermediates/classes-jarjar.jar"/>
