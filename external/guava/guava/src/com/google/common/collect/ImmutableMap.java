@@ -297,8 +297,8 @@ public abstract class ImmutableMap<K, V> implements Map<K, V>, Serializable {
 
   // If the map is an EnumMap, it must have key type K for some <K extends Enum<K>>.
   @SuppressWarnings({"unchecked", "rawtypes"})
-  private static <K extends Enum<K>, V> ImmutableMap<K, V> copyOfEnumMapUnsafe(Map<K, ? extends V> map) {
-    return copyOfEnumMap((EnumMap<K, V>) map);
+  private static <K, V> ImmutableMap<K, V> copyOfEnumMapUnsafe(Map<? extends K, ? extends V> map) {
+    return copyOfEnumMap((EnumMap) map);
   }
 
   private static <K extends Enum<K>, V> ImmutableMap<K, V> copyOfEnumMap(
