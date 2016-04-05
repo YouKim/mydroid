@@ -356,7 +356,7 @@ public abstract class ImmutableSet<E> extends ImmutableCollection<E>
    * @throws NullPointerException if any of {@code elements} is null
    * @since 7.0 (source-compatible since 2.0)
    */
-  public static <E> ImmutableSet<E> copyOf(Collection<? extends E> elements) {
+  public static <E extends Enum<E>> ImmutableSet<E> copyOf(Collection<E> elements) {
     /*
      * TODO(user): consider checking for ImmutableAsList here
      * TODO(user): consider checking for Multiset here
@@ -369,7 +369,7 @@ public abstract class ImmutableSet<E> extends ImmutableCollection<E>
         return set;
       }
     } else if (elements instanceof EnumSet) {
-      return copyOfEnumSet((EnumSet) elements);
+      return copyOfEnumSet((EnumSet<E>) elements);
     }
     Object[] array = elements.toArray();
     return construct(array.length, array);
