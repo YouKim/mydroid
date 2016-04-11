@@ -21,6 +21,9 @@
 	<classpathentry kind="src" path="external/jsr305/ri/src/main/java"/>
 	<classpathentry excluding="com/google/protobuf/AbstractMessage.java|com/google/protobuf/AbstractMessageLite.java|com/google/protobuf/AbstractParser.java|com/google/protobuf/BlockingRpcChannel.java|com/google/protobuf/BlockingService.java|com/google/protobuf/BoundedByteString.java|com/google/protobuf/ByteString.java|com/google/protobuf/CodedInputStream.java|com/google/protobuf/CodedOutputStream.java|com/google/protobuf/Descriptors.java|com/google/protobuf/DynamicMessage.java|com/google/protobuf/Extension.java|com/google/protobuf/ExtensionRegistry.java|com/google/protobuf/ExtensionRegistryLite.java|com/google/protobuf/FieldSet.java|com/google/protobuf/GeneratedMessage.java|com/google/protobuf/GeneratedMessageLite.java|com/google/protobuf/Internal.java|com/google/protobuf/InvalidProtocolBufferException.java|com/google/protobuf/LazyField.java|com/google/protobuf/LazyFieldLite.java|com/google/protobuf/LazyStringArrayList.java|com/google/protobuf/LazyStringList.java|com/google/protobuf/LiteralByteString.java|com/google/protobuf/Message.java|com/google/protobuf/MessageLite.java|com/google/protobuf/MessageLiteOrBuilder.java|com/google/protobuf/MessageOrBuilder.java|com/google/protobuf/MessageReflection.java|com/google/protobuf/Parser.java|com/google/protobuf/ProtocolMessageEnum.java|com/google/protobuf/ProtocolStringList.java|com/google/protobuf/RepeatedFieldBuilder.java|com/google/protobuf/RopeByteString.java|com/google/protobuf/RpcCallback.java|com/google/protobuf/RpcChannel.java|com/google/protobuf/RpcController.java|com/google/protobuf/RpcUtil.java|com/google/protobuf/Service.java|com/google/protobuf/ServiceException.java|com/google/protobuf/SingleFieldBuilder.java|com/google/protobuf/SmallSortedMap.java|com/google/protobuf/TextFormat.java|com/google/protobuf/UninitializedMessageException.java|com/google/protobuf/UnknownFieldSet.java|com/google/protobuf/UnmodifiableLazyStringList.java|com/google/protobuf/Utf8.java|com/google/protobuf/WireFormat.java" kind="src" path="external/protobuf/java/src/main/java"/>
 	<classpathentry kind="src" path="external/libphonenumber/libphonenumber/src"/>
+	<classpathentry kind="src" path="external/xmp_toolkit/XMPCore/src"/>
+	<classpathentry kind="src" path="external/mp4parser/isoparser/src/main/java"/>
+	<classpathentry kind="src" path="external/apache-http/src"/>
 	<classpathentry kind="src" path="frameworks/base/core/java"/>
 	<classpathentry kind="src" path="frameworks/base/drm/java"/>
 	<classpathentry kind="src" path="frameworks/base/graphics/java"/>
@@ -32,6 +35,7 @@
 	<classpathentry kind="src" path="frameworks/base/opengl/java"/>
 	<classpathentry kind="src" path="frameworks/base/rs/java"/>
 	<classpathentry kind="src" path="frameworks/base/sax/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/restrictions/java"/>
 	<classpathentry kind="src" path="frameworks/base/services/accessibility/java"/>
 	<classpathentry kind="src" path="frameworks/base/services/appwidget/java"/>
 	<classpathentry kind="src" path="frameworks/base/services/backup/java"/>
@@ -41,32 +45,27 @@
 	<classpathentry kind="src" path="frameworks/base/services/midi/java"/>
 	<classpathentry kind="src" path="frameworks/base/services/net/java"/>
 	<classpathentry kind="src" path="frameworks/base/services/print/java"/>
-	<classpathentry kind="src" path="frameworks/base/services/restrictions/java"/>
 	<classpathentry kind="src" path="frameworks/base/services/usage/java"/>
 	<classpathentry kind="src" path="frameworks/base/services/usb/java"/>
 	<classpathentry kind="src" path="frameworks/base/services/voiceinteraction/java"/>
 	<classpathentry kind="src" path="frameworks/base/telecomm/java"/>
 	<classpathentry kind="src" path="frameworks/base/telephony/java"/>
-	<classpathentry kind="src" path="frameworks/base/wifi/java"/>
 	<classpathentry kind="src" path="frameworks/base/packages/SettingsLib/src"/>
+	<classpathentry kind="src" path="frameworks/base/wifi/java"/>
+	<classpathentry kind="src" path="frameworks/base/media/mca/effect/java"/>
+	<classpathentry kind="src" path="frameworks/base/media/mca/filterfw/java"/>
+	<classpathentry kind="src" path="frameworks/base/media/mca/filterpacks/java"/>
+	<classpathentry kind="src" path="frameworks/opt/chips/src"/>
+	<classpathentry kind="src" path="frameworks/opt/datetimepicker/src"/>
+	<classpathentry kind="src" path="frameworks/opt/timezonepicker/src"/>
+	<classpathentry kind="src" path="frameworks/opt/calendar/src"/>
+	<classpathentry kind="src" path="frameworks/opt/colorpicker/src"/>
 	<classpathentry kind="src" path="frameworks/opt/telephony/src/java"/>
 	<classpathentry kind="src" path="frameworks/opt/net/voip/src/java"/>
 	<classpathentry kind="src" path="frameworks/opt/net/ims/src/java"/>
 	<classpathentry kind="src" path="frameworks/opt/vcard/java"/>
 	<classpathentry kind="src" path="frameworks/opt/setupwizard/library/main/src"/>
 	<classpathentry kind="src" path="frameworks/ex/common/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/core/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/keystore/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/location/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/media/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/packages/services/PacProcessor"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/packages/services/Proxy"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/telecomm/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/telephony/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/wifi/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/services.core_intermediates/src/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/src/src/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/src/src/java"/>
 	<classpathentry excluding="com/android/phone/|com/android/phone/common/|com/android/services/telephony/sip/" kind="src" path="out/target/common/R"/>
 	<classpathentry kind="src" path="frameworks/support/annotations/src"/>
 	<classpathentry kind="src" path="frameworks/support/v4/donut"/>
@@ -108,7 +107,28 @@
 	<classpathentry kind="src" path="frameworks/support/v17/leanback/api23"/>
 	<classpathentry kind="src" path="frameworks/support/v17/leanback/common"/>
 	<classpathentry kind="src" path="frameworks/support/v17/leanback/src"/>
+	<classpathentry kind="src" path="frameworks/support/design/base"/>
+	<classpathentry kind="src" path="frameworks/support/design/eclair-mr1"/>
+	<classpathentry kind="src" path="frameworks/support/design/honeycomb"/>
+	<classpathentry kind="src" path="frameworks/support/design/honeycomb-mr1"/>
+	<classpathentry kind="src" path="frameworks/support/design/ics"/>
+	<classpathentry kind="src" path="frameworks/support/v8/renderscript/java/src"/>
+	<classpathentry kind="src" path="frameworks/support/design/lollipop"/>
+	<classpathentry kind="src" path="frameworks/support/design/src"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/core/java"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/keystore/java"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/location/java"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/media/java"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/packages/services/PacProcessor"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/packages/services/Proxy"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/telecomm/java"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/telephony/java"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/wifi/java"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/services.core_intermediates/src/java"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/src/src/java"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/src/src/java"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/src/java"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/com.android.keychain.tests.support_intermediates/src/src"/>
 	<classpathentry kind="src" path="packages/services/Mms/src"/>
 	<classpathentry kind="src" path="packages/services/Telecomm/src"/>
 	<classpathentry kind="src" path="packages/services/Telephony/common/src"/>
@@ -125,13 +145,26 @@
 	<classpathentry kind="src" path="packages/apps/PackageInstaller/src"/>
 	<classpathentry kind="src" path="packages/apps/PhoneCommon/src"/>
 	<classpathentry kind="src" path="packages/apps/Settings/src"/>
+	<classpathentry kind="src" path="packages/apps/ManagedProvisioning/src"/>
+	<classpathentry kind="src" path="packages/apps/BasicSmsReceiver/src"/>
+	<classpathentry kind="src" path="packages/apps/Calendar/extensions_src"/>
+	<classpathentry kind="src" path="packages/apps/Calendar/src"/>
+	<classpathentry kind="src" path="packages/apps/CarrierConfig/src"/>
+	<classpathentry kind="src" path="packages/apps/CellBroadcastReceiver/src"/>
+	<classpathentry kind="src" path="packages/apps/CertInstaller/src"/>
+	<classpathentry kind="src" path="packages/apps/DeskClock/src"/>
+	<classpathentry kind="src" path="packages/apps/HTMLViewer/src"/>
+	<classpathentry kind="src" path="packages/apps/KeyChain/src"/>
+	<classpathentry kind="src" path="packages/apps/KeyChain/support/src"/>
+	<classpathentry kind="src" path="packages/apps/Launcher3/src"/>
+	<classpathentry kind="src" path="packages/apps/Launcher3/WallpaperPicker/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/ContactsProvider_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/MediaProvider_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/PackageInstaller_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/TeleService_intermediates/src/src"/>
 	<classpathentry excluding="src/" kind="src" path="out/target/common/obj/APPS/TeleService_intermediates/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/Settings_intermediates/src/src"/>
-	<classpathentry kind="src" path="packages/apps/ManagedProvisioning/src"/>
+	<classpathentry kind="src" path="out/target/common/obj/APPS/Launcher3_intermediates/src/proto/src"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/conscrypt_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes-jarjar.jar"/>
