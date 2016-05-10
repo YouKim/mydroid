@@ -67,54 +67,6 @@
 	<classpathentry kind="src" path="frameworks/opt/setupwizard/library/main/src"/>
 	<classpathentry kind="src" path="frameworks/ex/common/java"/>
 	<classpathentry excluding="com/android/phone/|com/android/phone/common/|com/android/services/telephony/sip/" kind="src" path="out/target/common/R"/>
-	<classpathentry kind="src" path="frameworks/support/annotations/src"/>
-	<classpathentry kind="src" path="frameworks/support/v4/donut"/>
-	<classpathentry kind="src" path="frameworks/support/v4/honeycomb"/>
-	<classpathentry kind="src" path="frameworks/support/v4/kitkat"/>
-	<classpathentry kind="src" path="frameworks/support/v4/api22"/>
-	<classpathentry kind="src" path="frameworks/support/v4/api23"/>
-	<classpathentry kind="src" path="frameworks/support/v4/jellybean-mr2"/>
-	<classpathentry kind="src" path="frameworks/support/v4/jellybean-mr1"/>
-	<classpathentry kind="src" path="frameworks/support/v4/jellybean"/>
-	<classpathentry kind="src" path="frameworks/support/v4/api20"/>
-	<classpathentry kind="src" path="frameworks/support/v4/eclair"/>
-	<classpathentry kind="src" path="frameworks/support/v4/eclair-mr1"/>
-	<classpathentry kind="src" path="frameworks/support/v4/froyo"/>
-	<classpathentry kind="src" path="frameworks/support/v4/gingerbread"/>
-	<classpathentry kind="src" path="frameworks/support/v4/honeycomb_mr1"/>
-	<classpathentry kind="src" path="frameworks/support/v4/honeycomb_mr2"/>
-	<classpathentry kind="src" path="frameworks/support/v4/ics"/>
-	<classpathentry kind="src" path="frameworks/support/v4/ics-mr1"/>
-	<classpathentry kind="src" path="frameworks/support/v4/java"/>
-	<classpathentry excluding="android/service/media/|android/content/pm/" kind="src" path="frameworks/support/v4/api21"/>
-	<classpathentry kind="src" path="frameworks/support/v7/appcompat/src"/>
-	<classpathentry kind="src" path="frameworks/support/v7/preference/src"/>
-	<classpathentry kind="src" path="frameworks/support/v7/palette/src/main/java"/>
-	<classpathentry kind="src" path="frameworks/support/v7/cardview/src"/>
-	<classpathentry kind="src" path="frameworks/support/v7/recyclerview/src"/>
-	<classpathentry kind="src" path="frameworks/support/v7/cardview/api21"/>
-	<classpathentry kind="src" path="frameworks/support/v7/cardview/eclair-mr1"/>
-	<classpathentry kind="src" path="frameworks/support/v7/cardview/jellybean-mr1"/>
-	<classpathentry kind="src" path="frameworks/support/v7/cardview/base"/>
-	<classpathentry kind="src" path="frameworks/support/v13/api23"/>
-	<classpathentry kind="src" path="frameworks/support/v13/ics"/>
-	<classpathentry kind="src" path="frameworks/support/v13/ics-mr1"/>
-	<classpathentry kind="src" path="frameworks/support/v13/java"/>
-	<classpathentry kind="src" path="frameworks/support/v14/preference/src"/>
-	<classpathentry kind="src" path="frameworks/support/v17/leanback/api21"/>
-	<classpathentry kind="src" path="frameworks/support/v17/leanback/jbmr2"/>
-	<classpathentry kind="src" path="frameworks/support/v17/leanback/kitkat"/>
-	<classpathentry kind="src" path="frameworks/support/v17/leanback/api23"/>
-	<classpathentry kind="src" path="frameworks/support/v17/leanback/common"/>
-	<classpathentry kind="src" path="frameworks/support/v17/leanback/src"/>
-	<classpathentry kind="src" path="frameworks/support/design/base"/>
-	<classpathentry kind="src" path="frameworks/support/design/eclair-mr1"/>
-	<classpathentry kind="src" path="frameworks/support/design/honeycomb"/>
-	<classpathentry kind="src" path="frameworks/support/design/honeycomb-mr1"/>
-	<classpathentry kind="src" path="frameworks/support/design/ics"/>
-	<classpathentry kind="src" path="frameworks/support/v8/renderscript/java/src"/>
-	<classpathentry kind="src" path="frameworks/support/design/lollipop"/>
-	<classpathentry kind="src" path="frameworks/support/design/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/core/java"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/keystore/java"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/location/java"/>
@@ -169,5 +121,14 @@
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/conscrypt_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/libphonenumber-platform_intermediates/classes-jarjar.jar"/>
+	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v13/android-support-v13.jar"/>
+	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v17/leanback/libs/android-support-v17-leanback.jar"/>
+	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v4/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v7/appcompat/libs/android-support-v7-appcompat.jar"/>
+	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v7/cardview/libs/android-support-v7-cardview.jar"/>
+	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v7/gridlayout/libs/android-support-v7-gridlayout.jar"/>
+	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v7/mediarouter/libs/android-support-v7-mediarouter.jar"/>
+	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v7/palette/libs/android-support-v7-palette.jar"/>
+	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v7/recyclerview/libs/android-support-v7-recyclerview.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
