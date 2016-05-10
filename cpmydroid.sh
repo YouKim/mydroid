@@ -24,6 +24,8 @@ find out -name '*.java' -exec cp -u --parents {} $LINK_TARGET  \;
 
 find out -name 'classes-jarjar.jar' -exec cp -u --parents {} $LINK_TARGET  \;
 
+find . -wholename ./prebuilts*android-support-v*.jar -exec cp -u --parents {} $LINK_TARGET  \;
+
 #find frameworks -name 'AndroidManifest.xml' -exec cp -u --parents {} $LINK_TARGET  \;
 
 #find -name 'Android.mk' -exec cp -u --parents {} $LINK_TARGET  \;
